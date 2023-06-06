@@ -17,7 +17,7 @@ function addTask() {
         listItem.innerText = taskText;
 
         // Add the new item to the task list
-        taskList.prepend(listItem);
+        taskList.appendChild(listItem);
 
         // Clear the input field
         taskInput.value = "";
