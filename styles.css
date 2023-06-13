@@ -3,10 +3,12 @@ h1 {
     text-align: center;
     position: relative;
 }
+
 h1::before {
     content: "";
     position: absolute;
-    top: 10%; /* Adjust the vertical position of the highlight */
+    top: 10%;
+    /* Adjust the vertical position of the highlight */
     left: 0;
     width: 100%;
     height: 35px;
@@ -37,9 +39,9 @@ body {
 #addButton {
     background-color: whitesmoke;
     text-align: center;
-   
-    
-    
+
+
+
 }
 
 #taskList {
